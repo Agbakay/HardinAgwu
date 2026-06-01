@@ -1,0 +1,38 @@
+.contact {
+    padding: 100px 10px;
+    overflow: hidden;
+}
+
+h2 {
+    font-family: var(--heading-font-family);
+}
+
+@media (min-width: 320px) {
+    .contact-wrapper h1 {
+        font-size: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var(--heading-font-family);
+        color: var(--bg-color);
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-wrapper h1 {
+        font-size: 80px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var(--heading-font-family);
+        color: var(--bg-color);
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-wrapper h1 {
+        font-size: 200px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var(--heading-font-family);
+        color: var(--bg-color);
+    }
+}

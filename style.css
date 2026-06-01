@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --text: #09f;
   --bg-color: #1925aa;
@@ -427,7 +431,7 @@ p {
 }
 
 .main-btn {
-  padding: 15px 28px;
+  padding: 15px 20px;
   background: var(--text);
   color: var(--white);
   transition: .5s linear;
@@ -436,7 +440,7 @@ p {
 }
 
 .alt-btn {
-  padding: 15px 28px;
+  padding: 15px 20px;
   border: 2px solid var(--text);
   color: var(--bg-color);
   transition: .5s linear;
