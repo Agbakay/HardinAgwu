@@ -201,7 +201,7 @@ p {
   font-weight: 400;
   font-family: var(--text-font-family);
   padding-left: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .hero-info p {
@@ -337,11 +337,11 @@ p {
 
 @media (min-width:1440px) {
   .hero-text h1 {
-    font-size: 640px;
+    font-size: 699px;
     font-weight: 400;
     letter-spacing: 0.5px;
     color: var(--bg-color);
-    line-height: 584px;
+    line-height: 680px;
     font-family: var(--heading-font-family);
   }
 
