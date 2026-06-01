@@ -261,7 +261,7 @@ p {
   }
 
   .hero-text h1 {
-    font-size: 160px;
+    font-size: 130px;
     line-height: 150px;
     font-family: var(--heading-font-family);
     color: var(--bg-color);
@@ -269,7 +269,7 @@ p {
   }
 
   .floating {
-    top: 15%;
+    top: 25%;
     right: 36%;
     z-index: 20;
     position: absolute;
@@ -279,6 +279,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: start;
   }
 
   .floating h1 {
