@@ -33,22 +33,25 @@ a {
 /* header */
 
 nav {
-  position: relative;
+  position: fixed;
+  width: 100%;
+  background: var(--offwhite);
   display: flex;
   justify-content: space-between;
   padding: 20px 100px;
   align-items: center;
+  z-index: 1000;
 }
 
 .tray {
   position: fixed;
-  overflow: auto;
   top: 0;
   right: 0;
   width: 0;
+  height: 100vh;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  background: rgb(0, 0, 0);
+  background: rgb(255, 255, 255, 0.1);
   transition: all 0.2s linear;
   z-index: 999;
   font-family: var(--heading-font-family);
@@ -94,7 +97,7 @@ nav {
 }
 
 .close .bars {
-  background: var(--white);
+  background: var(--offwhite);
   width: 40px;
 }
 
@@ -258,6 +261,10 @@ p {
   corner-shape: inherit;
   object-position: center center;
   object-fit: cover;
+}
+
+.hero-text {
+  margin-top: 100px;
 }
 
 @media (min-width: 320px) {
