@@ -45,10 +45,9 @@ nav {
   top: 0;
   right: 0;
   width: 0;
-
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   transition: all 0.2s linear;
   z-index: 999;
   font-family: var(--heading-font-family);
@@ -86,8 +85,10 @@ nav {
   height: 30px;
   position: absolute;
   top: 30px;
-  right: 20%;
+  right: 10%;
   display: flex;
+  flex-direction: column;
+  gap: 9px;
   align-items: center;
 }
 
@@ -111,6 +112,7 @@ nav {
   color: var(--white);
   border-bottom: 1px solid var(--white);
   transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 .link-tab a {
@@ -126,6 +128,7 @@ nav {
   gap: 10px;
   position: relative;
   transition: 0.5s linear;
+  cursor: pointer;
 }
 
 .arrow {

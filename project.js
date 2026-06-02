@@ -89,3 +89,9 @@ if (project) {
     gallery.appendChild(img);
   });
 }
+
+//
+//
+//
+//
+document.title = `${project.title} | HARDIN AGWU`;

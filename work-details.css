@@ -71,7 +71,7 @@ li {
     margin-bottom: 20px;
 }
 
-@media (max-width:768px) {
+@media (max-width:1000px) {
     .more .row {
         flex-direction: column;
     }
