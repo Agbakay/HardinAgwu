@@ -4,3 +4,26 @@
     color: var(--bg-color);
     text-align: center;
 }
+
+.about-wrapper p {
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--text-font-family);
+    margin: 30px 0;
+}
+
+.profile-image {
+    background: url(assets/hero.png) no-repeat center/cover;
+    height: 80vh;
+    width: 100%;
+    margin: 100px 0;
+    background-attachment: fixed;
+}
+
+.about-wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
