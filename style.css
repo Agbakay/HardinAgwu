@@ -227,7 +227,6 @@ p {
   z-index: 1;
 }
 
-
 .col-img {
   z-index: 2;
   flex: 1 0 0;
@@ -260,8 +259,6 @@ p {
   object-fit: cover;
 }
 
-
-
 @media (min-width: 320px) {
   .hero {
     padding: 0;
@@ -292,12 +289,10 @@ p {
   .floating h1 {
     font-size: 60px;
     font-family: var(--heading-font-family);
-
   }
-
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .hero-text h1 {
     font-size: 180px;
     line-height: 160px;
@@ -313,11 +308,10 @@ p {
   .floating h1 {
     font-size: 100px;
     font-family: var(--heading-font-family);
-
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1024px) {
   .hero-text h1 {
     font-size: 340px;
     font-weight: 400;
@@ -338,11 +332,10 @@ p {
     font-size: 200px;
     font-family: var(--heading-font-family);
     line-height: none;
-
   }
 }
 
-@media (min-width:1440px) {
+@media (min-width: 1440px) {
   .hero-text h1 {
     font-size: 699px;
     font-weight: 400;
@@ -363,7 +356,6 @@ p {
     font-size: 200px;
     font-family: var(--heading-font-family);
     line-height: none;
-
   }
 }
 
@@ -383,14 +375,12 @@ p {
   font-size: 16px;
 }
 
-
-
-
 /* ABOUT */
 
 .about {
   padding: 150px 0;
   position: relative;
+  overflow: hidden;
 }
 
 .about-row {
@@ -437,16 +427,15 @@ p {
   padding: 15px 20px;
   background: var(--text);
   color: var(--white);
-  transition: .5s linear;
+  transition: 0.5s linear;
   border: 2px solid var(--text);
-
 }
 
 .alt-btn {
   padding: 15px 20px;
   border: 2px solid var(--text);
   color: var(--bg-color);
-  transition: .5s linear;
+  transition: 0.5s linear;
 }
 
 .main-btn:hover {
@@ -461,7 +450,7 @@ p {
   border-color: var(--bg-color);
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .about-row {
     flex-direction: column;
   }
@@ -519,13 +508,12 @@ p {
   height: auto;
   width: 100%;
   padding: 20px;
-
 }
 
 .image-box {
   overflow: hidden;
   position: relative;
-  transition: .5s linear;
+  transition: 0.5s linear;
   border-radius: 2px;
   height: 500px;
 }
@@ -538,7 +526,7 @@ p {
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  transition: .5s linear;
+  transition: 0.5s linear;
   object-fit: cover;
   z-index: -1;
 }
@@ -548,23 +536,23 @@ p {
 }
 
 .grid-1 {
-  grid-column: 1/ span 2;
+  grid-column: 1 / span 2;
 }
 
 .grid-2 {
-  grid-column: 3/ span 3;
+  grid-column: 3 / span 3;
 }
 
 .grid-3 {
-  grid-column: 1/ span 1;
+  grid-column: 1 / span 1;
 }
 
 .grid-4 {
-  grid-column: 2/ span 4;
+  grid-column: 2 / span 4;
 }
 
 .grid-5 {
-  grid-column: 1/ span 5;
+  grid-column: 1 / span 5;
 }
 
 .work-info {
@@ -589,14 +577,14 @@ p {
   color: var(--bg-color);
   float: right;
   margin: 50px;
-  transition: .5s linear;
+  transition: 0.5s linear;
 }
 
 .grid:hover i {
   transform: scale(1.2);
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .headline h2 {
     font-size: 100px;
     line-height: 80px;
@@ -608,11 +596,10 @@ p {
     grid-template-columns: 1fr 1fr;
     margin-top: 30px;
     gap: 5px;
-
   }
 
   .grid {
-    grid-column: 1/ span 2;
+    grid-column: 1 / span 2;
     padding: 10px;
   }
 }
@@ -622,6 +609,7 @@ p {
 footer {
   padding: 200px 10px 50px 10px;
   background: var(--bg-color);
+  overflow: hidden;
 }
 
 .footer-content {
@@ -643,7 +631,6 @@ footer {
   text-transform: uppercase;
   text-align: center;
   display: block;
-
 }
 
 .footer-bottom {
@@ -669,8 +656,7 @@ hr {
   margin-top: 100px;
 }
 
-
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   .author-name h2 {
     font-size: 100px;
     line-height: 80px;
@@ -682,8 +668,7 @@ hr {
   }
 }
 
-
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .author-name h2 {
     font-size: 120px;
     line-height: 100px;

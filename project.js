@@ -59,6 +59,87 @@ const projects = {
 
     images: ["assets/SES_Nigeria_GA4.png", "assets/SES_Website_-1.png"],
   },
+
+  //
+
+  3: {
+    title: "Easywin Lotto",
+    discription:
+      "Led SEO optimization and organic growth strategies for EasyWin Nigeria, improving search visibility, keyword rankings, and organic traffic performance. Achieved over 94.8K clicks and 2.03M impressions through technical SEO, content optimization, keyword targeting, and mobile-first search improvements, contributing to stronger brand visibility and sustained organic growth across multiple African markets.",
+
+    summaryTitle: "SEO Case Study — EasyWin Nigeria (easywin.ng)",
+
+    summary:
+      "Worked on improving the organic visibility, search performance, and technical SEO structure of EasyWin Nigeria, a betting and gaming platform operating across Nigeria and parts of Africa.",
+
+    features: [
+      "Organic traffic growth",
+      "Technical SEO optimization",
+      "Content visibility improvement",
+      "Query ranking expansion",
+      "Mobile search optimization",
+      "Brand search dominance",
+      "Search Console performance growth",
+    ],
+
+    images: [
+      "assets/easywin (1).png",
+      "assets/easywin (2).png",
+      "assets/easywin (3).png",
+      "assets/easywin (4).png",
+      "assets/easywin (5).png",
+      "assets/easywin (6).png",
+      "assets/easywin (7).png",
+    ],
+  },
+  //
+  4: {
+    title: "Samsung Experience Store",
+    discription:
+      "Successfully contributed to the growth and management of SES Nigeria’s eCommerce ecosystem through integrated digital marketing, SEO, advertising, and performance-driven online business strategies, supporting sustained online revenue growth and customer acquisition.",
+
+    summaryTitle: "E-Commerce Management & Digital Growth — SES Nigeria",
+
+    summary:
+      "Managed and supported the growth of SES Nigeria’s eCommerce platform, focusing on online sales performance, digital marketing, customer acquisition, and overall website growth strategy across SEO, paid advertising, and performance optimization.",
+
+    features: [
+      "Managed day-to-day eCommerce operations",
+      "Oversaw product visibility and online merchandising",
+      "Managed SEO and organic traffic growth",
+      "Executed Google Ads and Meta Ads campaigns",
+      "Monitored website performance and customer engagement",
+      "Supported conversion optimization and online sales growth",
+      "Coordinated digital campaigns for Samsung product launches and promotions",
+    ],
+
+    images: ["assets/SES_Nigeria_GA4.png", "assets/SES_Website_-1.png"],
+  },
+
+  //
+
+  5: {
+    title: "Samsung Experience Store",
+    discription:
+      "Successfully contributed to the growth and management of SES Nigeria’s eCommerce ecosystem through integrated digital marketing, SEO, advertising, and performance-driven online business strategies, supporting sustained online revenue growth and customer acquisition.",
+
+    summaryTitle: "E-Commerce Management & Digital Growth — SES Nigeria",
+
+    summary:
+      "Managed and supported the growth of SES Nigeria’s eCommerce platform, focusing on online sales performance, digital marketing, customer acquisition, and overall website growth strategy across SEO, paid advertising, and performance optimization.",
+
+    features: [
+      "Managed day-to-day eCommerce operations",
+      "Oversaw product visibility and online merchandising",
+      "Managed SEO and organic traffic growth",
+      "Executed Google Ads and Meta Ads campaigns",
+      "Monitored website performance and customer engagement",
+      "Supported conversion optimization and online sales growth",
+      "Coordinated digital campaigns for Samsung product launches and promotions",
+    ],
+
+    images: ["assets/SES_Nigeria_GA4.png", "assets/SES_Website_-1.png"],
+  },
 };
 
 const params = new URLSearchParams(window.location.search);

@@ -1,0 +1,6 @@
+.about h2 {
+    font-size: 300px;
+    font-family: var(--heading-font-family);
+    color: var(--bg-color);
+    text-align: center;
+}
