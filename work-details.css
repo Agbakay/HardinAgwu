@@ -35,10 +35,12 @@ li {
 }
 
 .gallery img {
-    width: 100%;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
-    object-fit: contain;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    height: auto;
 }
 
 .more {
@@ -53,10 +55,7 @@ li {
     padding: 20px;
 }
 
-.project-details {
-    position: sticky;
-    top: 210px;
-}
+
 
 .summaryTitle {
     font-size: 44px;
